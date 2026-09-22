@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ملفات مسار المجانية</title>
+<meta name="description" content="ملفان مجانيان من مسار: «١٦٨ ساعة» لتنظيم وقتك، وخطة الأسبوعين قبل الامتحانات.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://masar-online.github.io/">
+<meta property="og:title" content="ملفاتك المجانية من مسار">
+<meta property="og:description" content="ملفان مجانيان من مسار: «١٦٨ ساعة» لتنظيم وقتك، وخطة الأسبوعين قبل الامتحانات.">
+<meta property="og:image" content="https://masar-online.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ar_AR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B2137">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Readex+Pro:wght@500;700&display=swap">
+<style>
+:root{
+  --navy:#0B2137; --deep:#071729; --card:#10294A; --card2:#0E2440; --line:#21476B;
+  --sky:#5FB6E8; --steel:#2E78B2; --ice:#F2F8FD; --frost:#B4DDF2; --mute:#8FB3CF;
+  --amber:#FFB547; --amber2:#FFC66E; --mint:#3DD6A0;
+  --display:"Readex Pro","IBM Plex Sans Arabic",Tahoma,"Segoe UI",sans-serif;
+  --body:"IBM Plex Sans Arabic",Tahoma,"Segoe UI",sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:var(--deep)}
+body{margin:0;background:
+  radial-gradient(700px 520px at 85% -6%,rgba(95,182,232,.22),transparent 60%),
+  radial-gradient(600px 500px at 0% 55%,rgba(255,181,71,.06),transparent 60%),
+  linear-gradient(180deg,#0D2640 0%,var(--navy) 38%,var(--deep) 100%);
+  color:var(--ice);font:400 16px/1.75 var(--body);direction:rtl;text-align:right;
+  padding-inline:16px;padding-block:0 40px;min-height:100%}
+.wrap{max-width:560px;margin:0 auto}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:12px}
+
+/* header */
+.top{display:flex;align-items:center;justify-content:space-between;padding-block:22px 6px}
+.top img{height:40px;width:auto;display:block}
+.top .tag{font:600 12.5px/1 var(--body);color:var(--frost);border:1px solid var(--line);padding:8px 12px;border-radius:999px}
+
+/* hero */
+.hero{padding-block:22px 10px}
+.path{display:block;width:170px;height:auto;margin-bottom:14px}
+.hero h1{font:700 clamp(30px,8.4vw,40px)/1.35 var(--display);margin:0;text-wrap:balance}
+.hero h1 span{color:var(--sky)}
+.hero p{margin:12px 0 0;color:var(--frost);font-size:16.5px;max-width:34em}
+.free{display:inline-flex;align-items:center;gap:8px;margin-top:16px;font:600 13.5px/1 var(--body);color:var(--mint);background:rgba(61,214,160,.1);border:1px solid rgba(61,214,160,.35);padding:9px 14px;border-radius:999px}
+.free i{width:8px;height:8px;border-radius:50%;background:var(--mint);display:block}
+
+/* file cards */
+.files{display:grid;gap:18px;margin-top:28px}
+.file{background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:26px;overflow:hidden}
+.cover{position:relative;padding:22px 22px 18px;display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center;border-bottom:1px solid var(--line);
+  background:radial-gradient(260px 160px at 12% 0%,rgba(95,182,232,.18),transparent 70%)}
+.num{font:700 58px/1 var(--display);color:var(--sky);letter-spacing:-1px;min-width:92px;text-align:center}
+.num small{display:block;font:600 13px/1.4 var(--body);color:var(--frost);letter-spacing:0;margin-top:6px}
+.file.b .num{color:var(--amber)}
+.file.b .cover{background:radial-gradient(260px 160px at 12% 0%,rgba(255,181,71,.16),transparent 70%)}
+.cover h2{font:700 22px/1.45 var(--display);margin:0;text-wrap:balance}
+.cover .for{margin:6px 0 0;font-size:14px;color:var(--mute)}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.meta span{font:500 12.5px/1 var(--body);color:var(--frost);background:rgba(180,221,242,.08);border:1px solid rgba(180,221,242,.16);padding:7px 10px;border-radius:999px}
+.inside{padding:18px 22px 22px}
+.inside h3{font:600 14px/1.4 var(--body);color:var(--mute);margin:0 0 10px;letter-spacing:.2px}
+.inside ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.inside li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;font-size:15.5px;line-height:1.65}
+.inside li svg{width:22px;height:22px;margin-top:2px}
+.open{margin-top:18px;display:flex;align-items:center;justify-content:center;gap:10px;width:100%;text-decoration:none;
+  font:700 17px/1 var(--display);color:var(--navy);background:linear-gradient(180deg,var(--amber2),var(--amber));
+  padding:17px 18px;border-radius:16px;box-shadow:0 12px 30px rgba(255,181,71,.22);transition:transform .15s ease}
+.open:hover{transform:translateY(-1px)}
+.open svg{width:20px;height:20px}
+.hint{margin:10px 0 0;text-align:center;font-size:13px;color:var(--mute)}
+
+/* follow */
+.follow{margin-top:34px;padding:22px;border-radius:26px;border:1px dashed rgba(95,182,232,.5);background:rgba(95,182,232,.06)}
+.follow h2{font:700 21px/1.45 var(--display);margin:0}
+.follow p{margin:6px 0 0;color:var(--frost);font-size:15px}
+.ig{display:grid;gap:10px;margin-top:16px}
+.ig a{display:flex;align-items:center;gap:12px;text-decoration:none;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:13px 14px;transition:border-color .15s ease}
+.ig a:hover{border-color:var(--sky)}
+.ig .av{flex:0 0 42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#fff,var(--sky));color:var(--navy);font:700 17px/1 var(--display)}
+.ig b{display:block;font:600 15.5px/1.35 var(--body)}
+.ig small{display:block;font-size:13px;color:var(--mute);direction:ltr;text-align:right}
+.ig .go{margin-inline-start:auto;font:600 13px/1 var(--body);color:var(--sky);white-space:nowrap}
+
+/* services */
+.svc{margin-top:34px}
+.svc > h2{font:700 21px/1.45 var(--display);margin:0}
+.svc > p{margin:6px 0 0;color:var(--frost);font-size:15px}
+.cards{display:grid;gap:12px;margin-top:16px}
+.s{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px}
+.s h3{font:700 17.5px/1.45 var(--display);margin:0;display:flex;align-items:center;gap:10px}
+.s h3 i{width:10px;height:10px;border-radius:50%;background:var(--sky);display:block;flex:0 0 10px}
+.s.m h3 i{background:var(--amber)}
+.s p{margin:6px 0 0;color:var(--frost);font-size:14.5px}
+.dm{margin-top:16px;display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;
+  font:700 16.5px/1 var(--display);color:var(--ice);background:transparent;border:1.5px solid var(--sky);padding:16px;border-radius:16px;transition:background .15s ease}
+.dm:hover{background:rgba(95,182,232,.12)}
+.dm svg{width:20px;height:20px}
+
+footer{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);color:var(--mute);font-size:13.5px;text-align:center;line-height:1.8}
+footer b{color:var(--frost);font-weight:600}
+
+@media (min-width:600px){
+  .cover{padding:26px 26px 20px}
+  .inside{padding:20px 26px 26px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<style>img{max-width:100%;height:auto}</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <img src="logo.png" width="520" height="149" alt="مسار MASAR">
+    <span class="tag" dir="ltr">@enganasmalik</span>
+  </header>
+
+  <section class="hero">
+    <h1>ملفاتك المجانية<br><span>من مسار</span></h1>
+    <p>ملفان عمليان تعبّئهما بنفسك، لتعرف أين يذهب وقتك، وكيف تدخل امتحاناتك بخطة واضحة.</p>
+    <span class="free"><i></i>مجاني بالكامل، بلا تسجيل</span>
+  </section>
+
+  <main class="files">
+    <article class="file a">
+      <div class="cover">
+        <div class="num">١٦٨<small>ساعة في أسبوعك</small></div>
+        <div>
+          <h2>أين يذهب أسبوعك؟</h2>
+          <p class="for">لطلاب التوجيهي والجامعة، ومن يدرس ويعمل</p>
+          <div class="meta"><span>٨ صفحات</span><span>تعبئته ٢٠ دقيقة</span></div>
+        </div>
+      </div>
+      <div class="inside">
+        <h3>ماذا ستخرج به؟</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#5FB6E8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>رقمك الحقيقي من الساعات المتاحة للدراسة، لا الرقم الذي تتمنّاه</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#5FB6E8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>النمط الذي يسرق وقتك من بين أربعة أنماط، وعلاجه</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#5FB6E8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>أربع كتل دراسة ثابتة تبني عليها أسبوعك، وخطة لليوم السيئ</span></li>
+        </ul>
+        <a class="open" href="https://drive.google.com/file/d/1YlSxyxG48L9FCOCrvEW3b8L4x5X0GrYm/view" target="_blank" rel="noopener">افتح الملف
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+      </div>
+    </article>
+
+    <article class="file b">
+      <div class="cover">
+        <div class="num">١٤<small>يوماً قبل الامتحان</small></div>
+        <div>
+          <h2>من الصفر إلى قاعة الامتحان</h2>
+          <p class="for">لطالب جامعي أمامه نحو خمس مواد وأسبوعان فقط</p>
+          <div class="meta"><span>٨ صفحات</span><span>خطة يومية</span></div>
+        </div>
+      </div>
+      <div class="inside">
+        <h3>ماذا ستخرج به؟</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#FFB547" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>ترتيب لموادك الخمس يحسم ماذا تدرس أولاً، في نصف يوم فقط</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#FFB547" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>جدول ١٤ يوماً بثلاث جلسات يومياً، تمرّ فيه كل مادة ثلاث مرات</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#FFB547" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>«ورقة نجاة» لكل مادة، وخطة طوارئ إن لم يبقَ أمامك إلا أسبوع</span></li>
+        </ul>
+        <a class="open" href="https://drive.google.com/file/d/1bTQP0wRfCLyejVgR9QOLZDhTCgHCpXT7/view" target="_blank" rel="noopener">افتح الملف
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+        <p class="hint">يُفتح الملف في Google Drive، ويمكنك تحميله من هناك.</p>
+      </div>
+    </article>
+  </main>
+
+  <section class="follow">
+    <h2>تريد المزيد؟</h2>
+    <p>ننشر كل أسبوع تقنيات دراسة وتنظيم وقت، وملفات جديدة مثل هذه. تابعنا حتى لا يفوتك الملف القادم.</p>
+    <div class="ig">
+      <a href="https://www.instagram.com/enganasmalik/" target="_blank" rel="noopener"><span class="av">م.أ</span><span><b>حساب م. أنس</b><small>@enganasmalik</small></span><span class="go">تابِع</span></a>
+      <a href="https://www.instagram.com/masar.online/" target="_blank" rel="noopener"><span class="av">م</span><span><b>مسار</b><small>@masar.online</small></span><span class="go">تابِع</span></a>
+    </div>
+  </section>
+
+  <section class="svc">
+    <h2>وإن أردت من يتابعك</h2>
+    <p>الملفات تعطيك النظام. وإن كنت تحتاج من يلاحظ غيابك ويعدّل خطتك معك، فهذا ما تقدّمه مسار.</p>
+    <div class="cards">
+      <div class="s"><h3><i></i>المتابعة الشخصية</h3><p>خطة أسبوعية مكتوبة لك وحدك، وتقرير يومي في دقيقة، ورد صوتي كل أسبوع تُعدَّل به خطتك.</p></div>
+      <div class="s m"><h3><i></i>حصص رياضيات مع الأستاذ البراء أبو طوق</h3><p>تأسيس من الصفر وحل أسئلة الامتحانات السابقة، لجميع المراحل، والحصص أونلاين.</p></div>
+    </div>
+    <a class="dm" href="https://ig.me/m/masar.online" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.8 7L4 20l1.1-4.6A8 8 0 1 1 21 12z"/></svg>
+      راسل مسار على إنستغرام</a>
+  </section>
+
+  <footer>
+    هذه الملفات <b>مجانية لوجه الله</b> ولن تُباع.<br>إن نفعتك، أرسل هذه الصفحة لزميل تعرف أنه يحتاجها.
+  </footer>
+</div>
+</body>
+</html>
